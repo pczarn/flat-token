@@ -1,9 +1,11 @@
 [package]
 name = "flat-token"
 version = "0.0.0"
+edition = "2018"
 
 description = """
-Implements flat tokens produced from token streams.
+Implements flat tokens produced from token streams through a "flatten"
+operation. Useful for proc macros that use token trees.
 """
 authors = ["Eduard-Mihai Burtescu <eddyb@lyken.rs>", "Piotr Czarnecki <pioczarn@gmail.com>"]
 repository = "https://github.com/pczarn/flat-token/"

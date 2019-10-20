@@ -4,6 +4,7 @@ use proc_macro2::{
     Delimiter, Ident, Literal, Punct, Span, TokenStream, TokenTree,
 };
 
+#[derive(Clone, Debug)]
 pub enum FlatToken {
     Delim(char, Span),
     Ident(Ident),

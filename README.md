@@ -1,6 +1,6 @@
 ## flat-token
 
-This package is implements `FlatToken`.
+This package implements `FlatToken`.
 
 ## License
 
