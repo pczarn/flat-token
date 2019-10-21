@@ -1,6 +1,6 @@
 [package]
 name = "flat-token"
-version = "0.0.0"
+version = "0.0.1"
 edition = "2018"
 
 description = """
@@ -15,4 +15,4 @@ license = "MIT/Apache-2.0"
 name = "flat_token"
 
 [dependencies]
-proc-macro2 = "1.0"
+proc-macro2 = "1.0.6"
